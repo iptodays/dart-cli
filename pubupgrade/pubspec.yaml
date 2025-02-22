@@ -1,0 +1,23 @@
+name: pubupgrade
+description: pubupgrade is a sample command - line application designed to check and upgrade the versions of dependencies in the pubspec.yaml file of projects.
+version: 1.0.0
+repository: https://github.com/iptodays/dart-cli/tree/master/pubupgrade
+
+environment:
+  sdk: ^3.7.0
+
+# Add regular dependencies here.
+dependencies:
+  path: ^1.9.1
+  # https://pub.dev/packages/pubspec_parse
+  pubspec_parse: ^1.5.0
+  # https://pub.dev/packages/cli_util
+  cli_util: ^0.4.2
+  # https://pub.dev/packages/pub_api_client
+  pub_api_client: ^3.1.1
+  # https://pub.dev/packages/process_run
+  process_run: ^1.2.3
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0
