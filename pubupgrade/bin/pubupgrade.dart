@@ -2,8 +2,8 @@
  * @Author: A kingiswinter@gmail.com
  * @Date: 2025-02-22 14:17:31
  * @LastEditors: A kingiswinter@gmail.com
- * @LastEditTime: 2025-02-22 15:48:54
- * @FilePath: /pubupgrade/bin/pubupgrade.dart
+ * @LastEditTime: 2025-02-22 16:31:06
+ * @FilePath: /dart-cli/pubupgrade/bin/pubupgrade.dart
  * 
  * Copyright (c) 2025 by A kingiswinter@gmail.com, All Rights Reserved.
  */
@@ -17,7 +17,7 @@ void main(List<String> arguments) {
   logger.stdout('''
 PUB UPGRADE
 Dart Version: ${Platform.version}
-CLI Version: 1.0.0
+CLI Version: 1.0.0+1
 ''');
   pubupgrade.upgraded();
 }
